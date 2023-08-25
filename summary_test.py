@@ -11,7 +11,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # Imposta la tua chiave API di OpenAI
-openai.api_key = "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"
+openai.api_key = "key"
 
 
 # Carica il file JSON contenente le recensioni
