@@ -49,7 +49,8 @@ if __name__ == "__main__":
                 rating = review.get("overall", "N/A")
                 review_text = review.get("reviewText", "N/A")
 
-                output_line = f"Product ID: {asin}\nReviewer: {reviewer}\nRating: {rating}\nReview: {review_text}\n"
+                #output_line = f"Product ID: {asin}\nReviewer: {reviewer}\nRating: {rating}\nReview: {review_text}\n"
+                output_line = f"{review_text}\t{rating}\n"
                 output_file.write(output_line)
 
         products_processed += 1
