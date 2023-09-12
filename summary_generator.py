@@ -1,7 +1,7 @@
 import openai
 
 # Imposta la tua chiave API di OpenAI
-openai.api_key = "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"
+openai.api_key = "INSERT_YOUR_KEY"
 
 # Funzione per generare un riassunto pesato delle recensioni
 def generate_summary(reviews):
